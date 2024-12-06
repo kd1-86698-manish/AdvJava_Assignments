@@ -9,10 +9,15 @@
 <body>
 
 	<h2>Login</h2>
-	<form method="post" action="LoginJsp.jsp">
+
+	<form method="post" action="login.jsp">
 		Email : <input type="text" name="email"> <br /> <br />
-		Password: <input type="text" name="password"> <br /> <br />
+		Password: <input type="password" name="password"> <br /> <br />
 		<input type="submit" value="Sign In">
+		<p>
+			You Don't have Account ? <a href="newuser.jsp">SignUp</a>
+		</p>
+
 
 	</form>
 

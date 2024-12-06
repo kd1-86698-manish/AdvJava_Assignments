@@ -8,7 +8,7 @@ public class LoginBean {
 
 	private String email;
 	private String password;
-	User user;
+	private User user;
 
 	public String getEmail() {
 		return email;
@@ -42,6 +42,7 @@ public class LoginBean {
 
 			if (u != null && u.getPassword().equals(password)) {
 				user = u;
+
 			}
 
 		} catch (Exception e) {
